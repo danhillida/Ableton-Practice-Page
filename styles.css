@@ -82,6 +82,11 @@ body {
 }
 
 /* ----- CONTENT ----- */
+iframe {
+    margin: 0 auto;
+    display: block;
+}
+
 .content {
     width: 50vw;
     margin: 0 auto;
@@ -133,7 +138,3 @@ body {
     right: 5vw;
 }
 
-iframe {
-    margin: 0 auto;
-    display: block;
-}
