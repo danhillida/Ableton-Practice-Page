@@ -5,8 +5,12 @@
 
 body {
     color: black;
-    font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Nunito',Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+
+
+/* ----- NAVBAR ----- */
 
 .nav-bar {
     display: flex;
@@ -16,6 +20,7 @@ body {
     border-bottom: 1px solid #d3d3d380;
     height: 70px;
     padding: 0px 40px;
+    
     font-weight: bold;
 }
 
@@ -32,10 +37,6 @@ body {
     color: black;
 }
 
-.call-to-action {
-    color: blue;
-}
-
 .secondary-nav {
     display: flex;
     flex-direction: row;
@@ -45,13 +46,94 @@ body {
     height: 70px;
     padding: 0px 40px;
     list-style: none;
+    
     font-weight: bold;
 }
 
+.attention {
+    color: #ff764d;
+}
+
+.call-to-action {
+    color: #0000ff;
+}
+
+/* ----- HERO IMAGE ----- */
+
 .hero-img {
-    height: 100vh;
-    width: 90%;
+   
+    height: 86vh;
+    width: 80vw;
+    background: url(imgs/header.jpg);
+    background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    background: url();
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.branding {
+    color: #ff764d;
+    font-size: 9rem;
+    font-weight: normal;
+}
+
+/* ----- CONTENT ----- */
+.content {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 7rem;
+}
+
+.main-content {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+.secondary-content {
+    padding: .5rem;
+}
+
+/* ----- COLLAGE ----- */
+.collage {
+    position: relative;
+}
+
+.yellow-block {
+    height: 50vw;
+    width: 50vw;
+    background-color: #fbffa7;
+    margin-left: auto;
+}
+
+.first-pic {
+    height: 42vw;
+    width: 42vw;
+    background-image: url(imgs/pexels-photo-4474033.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4vw;
+    left: 10vw;
+}
+
+.second-pic {
+    height: 25vw;
+    width: 33vw;
+    background-image: url(imgs/blurry.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 13vw;
+    right: 5vw;
+}
+
+iframe {
+    margin: 0 auto;
+    display: block;
 }
