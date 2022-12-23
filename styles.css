@@ -104,16 +104,43 @@ iframe {
     padding: .5rem;
 }
 
+.stonks {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: block;
+} 
+
 /* ----- COLLAGE ----- */
 .collage {
     position: relative;
 }
 
+.collage-container {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+}
+
 .yellow-block {
     height: 50vw;
-    width: 50vw;
+    width: 55vw;
     background-color: #fbffa7;
     margin-left: auto;
+}
+
+.green-block {
+    height: 75vw;
+    width: 60vw;
+    background-color: #b6ffc0;
+}
+
+.purple-block {
+    height: 58vw;
+    width: 67vw;
+    background-color: #d5b3ff;
+    margin: 0 auto;
 }
 
 .first-pic {
@@ -138,3 +165,57 @@ iframe {
     right: 5vw;
 }
 
+.pic-three {
+    height: 25vw;
+    width: 33vw;
+    background-image: url(imgs/whiteboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 8vw;
+    left: 5vw;
+}
+
+.pic-four {
+    height: 25vw;
+    width: 33vw;
+    background-image: url(imgs/business.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:40vw;
+    left: 5vw;
+}
+
+.pic-five {
+    height: 42vw;
+    width: 42vw;
+    background-image: url(imgs/studio.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 16vw;
+    right: 5vw;
+}
+
+.pic-six {
+    height: 25vw;
+    width: 35vw;
+    background-image: url(imgs/pic-six.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 18vw;
+    left: 8vw;
+}
+
+.pic-seven {
+    height: 40vw;
+    width: 40vw;
+    background-image: url(imgs/pic-seven.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10vw;
+    right: 8vw;
+}
